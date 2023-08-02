@@ -12,6 +12,8 @@ var _app = require('./app');
 
 var _app2 = _interopRequireDefault(_app);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {default: obj};
+}
 
-_reactDom2.default.render(_react2.default.createElement(_app2.default, { items: window.APP_PROPS.items }), document.getElementById('content'));
+_reactDom2.default.render(_react2.default.createElement(_app2.default, {items: window.APP_PROPS.items}), document.getElementById('content'));
